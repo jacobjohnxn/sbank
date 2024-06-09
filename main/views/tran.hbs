@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tran</title>
+
+  <link rel="stylesheet" type="text/css" href="css/tran.css">  
+</head>
+<body>
+    <div class="hero">
+        <form action="/auth/tran" method="POST">
+            <p>Sender Account Number : {{accno}}</p>
+            <input type='int' name = "accno" placeholder="Recipient Account Number"/>
+            <input type='int' name = "amount" placeholder="Amount"/>
+            <button type="submit">Initiate Transaction</button>
+            <p>Any transaction failure will be refunded in 2-3 working days</p>
+        </form>
+    </div>
+
+</body>
+</html>

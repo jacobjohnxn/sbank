@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<div class="container bootdey flex-grow-1 container-p-y">
+
+            <div class="media align-items-center py-3 mb-3">
+              <div class="media-body ml-4">
+                <h4 class="font-weight-bold mb-0">Name:{{user.name}} </h4>
+                <div class="text-muted mb-2">Account Number:{{user.accno}}</div>
+              
+              </div>
+            </div>
+
+            <div class="card mb-4">
+              <div class="card-body">
+                <table class="table user-view-table m-0">
+                  <tbody>
+                    <tr>
+                      <td>Balance</td>
+                      <td>{{user.amount}}</td>
+                    </tr>
+                    <tr>
+                      <td>Loan balance</td>
+                      <td>{{user.loanamount}}</td>
+                    </tr>
+                    <tr>
+                      <td>Loan due date:</td>
+                      <td>{{user.LDATE}}</td>
+                    </tr>
+                    
+                    
+                  
+                    <tr>
+                      <td>Status:</td>
+                      <td><span class="badge badge-outline-success">Active</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+</body>
+</html>
