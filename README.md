@@ -18,11 +18,7 @@ This is a banking website project created using Handlebars, HTML, CSS, and Node.
    ```sh
    git clone https://github.com/jacobjohnxn/sbank.git
    cd sbank
-
-
-https://github.com/jacobjohnxn/sbank.git
-   cd sbank
-   cd main( make sure you are in main folder before proceding)
+   cd main( *make sure you are in main folder before proceding*)
    ```
 2. Install the dependencies:
 
