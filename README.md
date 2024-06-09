@@ -1,5 +1,3 @@
-
-```markdown
 # Banking Website
 
 This is a banking website project created using Handlebars, HTML, CSS, and Node.js with a MySQL database.
@@ -21,8 +19,12 @@ This is a banking website project created using Handlebars, HTML, CSS, and Node.
    ```sh
    git clone https://github.com/jacobjohnxn/sbank.git
    cd sbank
-   ```
 
+
+https://github.com/jacobjohnxn/sbank.git
+   cd sbank
+   cd main( make sure you are in main folder before proceding)
+   ```
 2. Install the dependencies:
 
    ```sh
@@ -44,7 +46,7 @@ This is a banking website project created using Handlebars, HTML, CSS, and Node.
    npm start
    ```
 
-3. Open your browser and go to `http://localhost:3000`.
+3. Open your browser and go to `http://localhost:5000`.
 
 ## Database Setup
 
@@ -54,7 +56,7 @@ This is a banking website project created using Handlebars, HTML, CSS, and Node.
    - Open MySQL Workbench.
    - Connect to your local MySQL server.
    - Go to `Server > Data Import`.
-   - Select `Import from Self-Contained File` and choose the SQL file you exported.
+   - Select `Import from Self-Contained File` and choose the SQL file you.
    - Select your target database or create a new one.
    - Click `Start Import`.
 
@@ -76,6 +78,12 @@ To run the application in development mode:
 - Node.js
 - Express
 - MySQL
+
+#some sample usage
+![image](https://github.com/jacobjohnxn/sbank/assets/89299580/ffc00a6c-9fc0-4d88-989c-75ad17f5f536)
+![image](https://github.com/jacobjohnxn/sbank/assets/89299580/ffc767ff-557c-4aee-a8ae-c3d40eb45703)
+
+
 
 
 
