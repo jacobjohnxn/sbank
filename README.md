@@ -9,8 +9,7 @@ This is a banking website project created using Handlebars, HTML, CSS, and Node.
 - [Database Setup](#database-setup)
 - [Scripts](#scripts)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Installation
 
