@@ -75,6 +75,8 @@ To run the application in development mode:
 - MySQL
 
 #some sample usage
+
+![image](https://github.com/jacobjohnxn/sbank/assets/89299580/536f6077-7d6f-4af6-8dcd-88a7627dadc6)
 ![image](https://github.com/jacobjohnxn/sbank/assets/89299580/ffc00a6c-9fc0-4d88-989c-75ad17f5f536)
 ![image](https://github.com/jacobjohnxn/sbank/assets/89299580/ffc767ff-557c-4aee-a8ae-c3d40eb45703)
 
